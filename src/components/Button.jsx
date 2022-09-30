@@ -17,22 +17,19 @@ export default function Button({navigation}) {
 
 const styles = StyleSheet.create({
     button: {
-    marginBottom: 20,
     alignItems: 'center',
     justifyContent: 'center',
-    paddingVertical: 12,
-    paddingHorizontal: 32,
-    borderRadius: 4,
-    elevation: 3,
+    paddingVertical: 15,
+    paddingHorizontal: 20,
     backgroundColor: '#1E212D',
-    width: '50%',
-    borderRadius: 15
-},
+    borderRadius: 15,
+    marginBottom: 20
+    },
     text: {
-    fontSize: 16,
-    lineHeight: 21,
+    fontSize: 20,
     fontWeight: 'bold',
-    letterSpacing: 0.25,
-    color: '#FAF3E0',
-},
-});
+    color: '#fff',
+    textDecorationLine: 'underline',
+    textAlign: 'center'
+    },
+})
