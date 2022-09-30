@@ -1,7 +1,7 @@
 import {createApi,fetchBaseQuery} from '@reduxjs/toolkit/query/react'
 
-const itinerariesApi = createApi({
-    reducerPath: "itinerariesApi",
+const itinerariesAPI = createApi({
+    reducerPath: "itinerariesAPI",
     baseQuery: fetchBaseQuery({
         baseUrl: 'https://my-tinerary-jeremiri.herokuapp.com'
     }),
@@ -18,7 +18,7 @@ const itinerariesApi = createApi({
         }),
     })
 })
-export default itinerariesApi;
+export default itinerariesAPI;
 
 export const {useGetAllItinerariesQuery,
-    useGetCityItinerariesQuery} = itinerariesApi;
+    useGetCityItinerariesQuery} = itinerariesAPI;

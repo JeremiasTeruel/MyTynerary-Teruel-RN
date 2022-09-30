@@ -8,7 +8,7 @@ export default function Footer() {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.text}>Copyright ©MyTinerary | {year}</Text>
+            <Text style={styles.text}>Copyright ©MyTinerary-Teruel | {year}</Text>
         </View>
     )
 }
@@ -21,6 +21,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection:'row',
+        marginTop: 10
     },
     text:{
         textAlign: 'center',
