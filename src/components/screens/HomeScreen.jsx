@@ -23,6 +23,7 @@ export default function HomeScreen() {
                 <Text style={styles.text1}>WELCOME, TRAVELLER!</Text>
                 <Text style={styles.text}>Ready to know your destiny?</Text>
                 <Button navigation={navigation}/>
+                <Text style={styles.popularCities}>Popular Cities</Text>
             <CarouselCities />
             <Footer/>
             </ImageBackground>
@@ -61,5 +62,12 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         alignItems: 'center',
         width: 500
+    },
+    popularCities:{
+        fontSize: 30,
+        fontWeight: 'bold',
+        textAlign: 'center',
+        textDecorationLine: 'underline',
+        // marginBottom: 10
     }
 })
